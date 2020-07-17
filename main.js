@@ -3,6 +3,9 @@ var count1=0;
       $('.mainAmer').hide();
       $('.mainVolleyball').hide();
       $('.mainSwimming').hide();
+      $('.mainMMA').hide();
+	  $('.mainBallet').hide();
+	  $('.mainCycling').hide();
 function showSwim(){
 	count++;
 	if(count%2 !==0){
@@ -35,5 +38,42 @@ function showAmer(){
 		$('.mainAmer').hide()
 	}
 }
-
-
+function showBallet(){
+	count++;
+	if(count%2 === 0){
+		$('.mainAmer').hide()
+		$('.mainSwimming').hide()
+		$('.mainVolleyball').hide()
+		$('.mainBallet').show()
+	}
+	else if(count%2 !== 0){
+		$('.mainBallet').hide()
+	}
+}
+function showMMA(){
+	count++;
+	if(count%2 !== 0){
+		$('.mainBallet').hide()
+		$('.mainAmer').hide()
+		$('.mainSwimming').hide()
+		$('.mainVolleyball').hide()
+		$('.mainMMA').show()
+	}
+	else if(count%2 === 0){
+		$('.mainMMA').hide()
+	}
+}
+function showCycling(){
+	count++;
+	if(count%2 === 0){
+		$('.mainMMA').hide()
+		$('.mainBallet').hide()
+		$('.mainAmer').hide()
+		$('.mainSwimming').hide()
+		$('.mainVolleyball').hide()
+		$('.mainCycling').show()
+	}
+	else if(count%2 !== 0){
+		$('.mainCycling').hide()
+	}
+}
