@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	float: left;
+	font-size: 90px;
+}
+.menuBar {
+	background-color: lightblue;
+	text-align: center;
+	height: 90px;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 0px 0px 20px 20px;
+}
+
+body {
+	background-color: gray;
+	font font-family: Perpetua;
+	font-size: 80px;
+	font-family: Brush Script MT;
+}
+.menuBar ul {
+	font-family: candara;
+	font-weight: 20px;
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	float: right;
+	font-size: 20px;
+}
+
+.menuBar ul li {
+	padding-right: 60px;
+	padding-left: 60px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 30px;
+}
+
+.menuBarItems:hover {
+	background-color: gold;
+	size: 20px;
+}
+
+.cntUs {
+	display: none;
+}
+.menuBarItems:hover .cntUs {
+	display: inline-block;
+}
+.buttons {
+	background-color: white;
+}
+.images{
+	display:none;
+}
+#press{
+background-color: red;
+}
