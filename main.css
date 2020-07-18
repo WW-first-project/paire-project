@@ -5,27 +5,31 @@
 
 .logo {
 	float: left;
-	font-size: 90px;
-	font-family: Brush Script MT;
+	font-size: 80px;
+	font-family:  Brush Script MT;
+	color: black;
+	margin-left: 40px;
+}
+.logo:hover {
+	transform: scale(1.5);
 }
 
 .menuBar {
-	background-color: lightblue;
+	background-color: #9fbfdf;
 	text-align: center;
-	height: 90px;
+	height: 50px;
 	font-size: 20px;
 	font-weight: bold;
 	border-radius: 0px 0px 20px 20px;
 }
 
 body {
-	background-color: gray;
 	font-size: 15px;
 	font-family: candara;
-	background: url(sports.jpg) no-repeat center fixed;
+	background: url(https://app.retargetbot.com/upload/comboposter/2/2_image_1582136788872399.jpg) no-repeat center fixed;
 }
 
-.menuBar ul {
+.menuBar a {
 	font-family: candara;
 	font-weight: 20px;
 	display: inline-flex;
@@ -33,55 +37,56 @@ body {
 	color: white;
 	float: center;
 	font-size: 20px;
+	text-decoration: none;
 }
 
-.menuBar ul li {
-	padding-right: 60px;
-	padding-left: 60px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	height: 30px;
+.menuBar a:hover {
+	transform: scale(1.5);
 }
-
-.menuBarItems:hover {
-	background-color: gold;
-	size: 20px;
-}
-
-.cntUs {
-	display: none;
-}
-
-.menuBarItems:hover .cntUs {
-	display: inline-block;
+.menuBarItems {
+	margin-top: 10px;
+	margin-left: 60px;
+	padding-left: 100px;
+	padding-right: 70px;
+	display: center;
 }
 
 .buttons {
-	background-color: white;
 	height: 60px;
 	border-radius: 10px 10px 10px 10px;
+	margin-top: 50px;
+}
+#button1 , #button2 , #button3 , #button4 , #button5 , #button6 , #button7 {
+	font-family: candara;
+	font-size: 15px;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .category {
 	margin-top: 10px;
 	display: inline-block;
 	padding: 10px;
-	margin-right: 110px;
-	background-color: ;
+	margin-right: 30px;
+	margin-left: 20px;
 	border: 0px;
 	border-radius: 10px 10px 10px 10px;
 }
 
 .category:hover {
-	background-color: lightgreen;
+	background-color: lightblue;
 }
 
+#button7 {
+	margin-left: 170px;
+}
 .images {
 	height: 350px;
 	border-radius: 20px 20px 20px 20px;
+	border: 5px solid #7575a3;
 }
 
-.justSwim , .justVolley , .justAmer , .justBallet , .justMMA , .justCycling {
+.justSwim , .justVolley , .justAmer , .justMMA , .justCycling {
 	float: left;
 	padding: 10px;
 	max-width: 100%;
@@ -95,10 +100,71 @@ body {
 .description {
 	background-color: white;
 	border-radius: 20px 20px 20px 20px;
-	height: 80px;
+	height: 100px;
 	text-align: center;
-
+	border: 5px solid #7575a3;
 }
-.justSwim {
-	background: url(pool.jpg) no-repeat center fixed;
+.aboutImages {
+	border-radius: 50%;
+	width: 230px;
+	height: 230px;
+	margin-right:100px;
+	margin-left:160px;
+	margin-top: 70px;
+}
+.about {
+	float:left;
+	display: inline-flex;
+}
+h2 {
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 80px;
+	color: #47476b;
+}
+.text {
+	text-align: center;
+	margin-top: 430px;
+	margin-bottom: 50px;
+	margin-left: 70px;
+	margin-right: 50px;
+	color: #6699cc;
+	font-size: 30px;
+}
+
+#button6 {
+	margin-right: 30px;
+	margin-left: 20px;
+}
+#button7 {
+	margin-left: 250px;
+}
+.loginDiv {
+	height: 300px;
+	width: 500px;
+	margin-left: 600px;
+}
+#firstN , #lastN , #phoneN , #add {
+	margin: 7px;
+}
+#nameBtn , #lastnameBtn , #phoneBtn , #addBtn {
+	margin-top: 100px;
+}
+#finish {
+	position: relative;
+	top: 160px;
+	left: 670px;
+	height: 25px;
+	width: 75px;
+}
+#finish:hover {
+	background-color: #9fbfdf;
+}
+.opening {
+	font-size: 25px;
+	font-family: candara;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
 }
